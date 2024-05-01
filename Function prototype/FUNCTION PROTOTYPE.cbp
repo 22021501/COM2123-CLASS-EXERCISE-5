@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="FUNCTION PROTOTYPE" />
+		<Option execution_dir="C:/Users/27657/Documents/COM2123/FUNCTION PROTOTYPE/" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/FUNCTION PROTOTYPE" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/FUNCTION PROTOTYPE" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="../../../Documents/COM2123/FUNCTION PROTOTYPE/include/Function prototype.h" />
+		<Unit filename="../../../Documents/COM2123/FUNCTION PROTOTYPE/main.cpp" />
+		<Unit filename="../../../Documents/COM2123/FUNCTION PROTOTYPE/src/Function prototype.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
